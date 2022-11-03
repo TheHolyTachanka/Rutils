@@ -1,0 +1,22 @@
+[package]
+name = "coreutils"
+version = "0.1.0"
+edition = "2021"
+
+[install]
+root = "/"
+
+[[bin]]
+name = "cat"
+path = "src/cat/main.rs"
+
+
+[[bin]]
+name = "ls"
+path = "src/ls/main.rs"
+
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
