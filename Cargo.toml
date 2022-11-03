@@ -15,8 +15,13 @@ path = "src/cat/main.rs"
 name = "ls"
 path = "src/ls/main.rs"
 
+[[bin]]
+name = "base64"
+path = "src/base64/main.rs"
+
 
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+base64 = "0.13.1"
